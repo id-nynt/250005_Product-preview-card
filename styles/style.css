@@ -139,24 +139,22 @@ main {
 ---------------------------*/
 
 .add-cart {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: hsl(158, 36%, 37%);
     border: none;
     border-radius: 8px;
+    cursor: pointer;
     transition: background-color 0.5s ease;
+}
 
-}
-.button-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.button-wrapper img {
+.add-cart img {
     display: inline-block;
 }
 
-.button-wrapper p {
+.add-cart p {
     display: inline-block;
     font-family: "Montserrat", serif;
     color: white;
